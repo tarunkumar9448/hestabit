@@ -1,0 +1,40 @@
+header {
+    position: relative;
+    background-image: url(../images/banner-bg.jpg);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background-color: #e75b4c;
+
+    .banner-text {
+        h1 {
+            font-weight: 600;
+            font-size: 2rem;
+        }
+
+        p {
+            font-weight: 300;
+            font-size: 1rem;
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    header {
+        padding-bottom: 90px;
+    }
+}
+
+@media (min-width: 1200px) {
+    header {
+        .banner-text {
+            h1 {
+                font-weight: 700;
+                font-size: 2.8rem;
+            }
+            
+        }
+    }
+}

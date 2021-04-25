@@ -1,12 +1,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import 'jquery/dist/jquery.min.js'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import Nav from './nav/nav';
+import Header from './header/header';
+import Service from './service/service';
+import Work from './work/work';
+import Benifits from './benifits/benifits';
+import Register from './register/register';
+import Footer from './footer/footer';
 import reportWebVitals from './reportWebVitals';
+import './index.scss';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Nav />
+    <Header />
+    <Service />
+    <Work />
+    <Benifits />
+    <Register />
+    <Footer />
   </React.StrictMode>,
   document.getElementById('root')
 );

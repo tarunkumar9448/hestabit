@@ -1,0 +1,26 @@
+.service-box{
+    img{
+        max-width: 250px;
+    }
+    h3{
+        font-size: 1.35rem;
+    font-weight: 600;
+    margin-top: 1.1rem;
+    white-space: nowrap;
+    }
+}
+@media (min-width: 992px) {
+.service-box{
+    img{
+        max-width:100%;
+    }
+    }
+}
+@media (min-width: 1200px) {
+.service-box{
+    h3{
+        font-size: 1.5rem;
+    margin-top: 1.5rem;
+    }
+    }
+}

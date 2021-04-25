@@ -1,0 +1,18 @@
+nav{
+    background: #e75b4c;
+    .btn{
+        border-radius: 50px;
+    padding: 8px 23px;
+        
+        &:hover{
+            background-color: transparent;
+            color: #fff;
+        }
+    }
+    .nav-link{
+        color: #fff !important;
+    }
+    .navbar-brand{
+        width: 100px;
+    }
+}

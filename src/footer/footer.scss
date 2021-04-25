@@ -1,0 +1,55 @@
+footer {
+    position: relative;
+    background-image: url(../images/footer-bg.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #e75b4c;
+    padding-bottom: 10px;
+    padding-top: 70px;
+
+    .footer-logo {
+        width: 100px;
+        margin-bottom: 1.5rem;
+    }
+
+    h4 {
+        font-weight: 600;
+        font-size: 1.2rem;
+        margin-bottom: 1rem
+    }
+
+    .footer-form {
+        border-radius: 50px;
+        background: #fff;
+        padding: 5px;
+
+        input {
+            border: none;
+            outline: none;
+            box-shadow: none;
+            background-color: transparent;
+            padding: 4px 15px;
+            width: 100%;
+        }
+
+        .btn {
+            background-color: #e75b4c;
+            border-radius: 50px;
+            border-color: #e75b4c;
+            padding: 5px 20px;
+        }
+    }
+     li {
+            a {
+                .img-fluid {                    
+                    max-width: 30px;
+                }
+            }
+        }
+}
+@media (min-width: 768px) {
+footer {
+    padding-top: 120px;
+}
+}

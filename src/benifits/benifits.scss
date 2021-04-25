@@ -1,0 +1,26 @@
+.benifits-box{
+    img{
+        max-width:240px;
+    }
+    h3{
+        margin-top: 1.5rem;
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+}
+@media (min-width: 768px) {
+  .benifits-box{
+    img{
+        max-width:90%;
+    }
+
+}
+}
+@media (min-width: 1200px) {
+  .benifits-box{
+    h3{
+        font-size: 1.4rem;
+    }
+
+}
+}
